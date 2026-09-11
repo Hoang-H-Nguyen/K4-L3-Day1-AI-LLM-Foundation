@@ -34,12 +34,12 @@ mỗi lần trung bình ~350 token đầu ra.
 trường hợp GPT-4o xứng đáng với chi phí và một trường hợp nên dùng mini:**
 <!-- > *Câu trả lời của bạn* -->
 
->10,000 users × 3 calls = 30,000 calls/day
->30,000 × 350 = 10,500,000 output tokens/day
->GPT-4o: 10.5M / 1,000 × $0.010 = $105/day
-> GPT-4o-mini: 10.5M / 1,000 × $0.0006 = $6.30/day
-> GPT-4o đắt hơn khoảng 16.7 lần.
-> GPT-4o xứng đáng với các tác vụ phức tạp đòi hỏi khả năng suy luận chất lượng cao hoặc phản hồi chính xác, trong khi GPT-4o-mini phù hợp hơn cho các tác vụ đơn giản, khối lượng lớn như trả lời FAQ hoặc hỗ trợ khách hàng cơ bản.
+> - 10,000 users × 3 calls = 30,000 calls/day
+> - 30,000 × 350 = 10,500,000 output tokens/day
+> - GPT-4o: 10.5M / 1,000 × $0.010 = $105/day
+> - GPT-4o-mini: 10.5M / 1,000 × $0.0006 = $6.30/day
+> - GPT-4o đắt hơn khoảng 16.7 lần.
+> - GPT-4o xứng đáng với các tác vụ phức tạp đòi hỏi khả năng suy luận chất lượng cao hoặc phản hồi chính xác, trong khi GPT-4o-mini phù hợp hơn cho các tác vụ đơn giản, khối lượng lớn như trả lời FAQ hoặc hỗ trợ khách hàng cơ bản.
 
 ---
 
@@ -94,10 +94,8 @@ với delay cố định giống nhau?**
 thích 1–2 lựa chọn từ ngữ quan trọng trong prompt (ví dụ: vì sao yêu cầu
 "trả lời ngắn gọn", vì sao chỉ định ngôn ngữ...):**
 <!-- > *Câu trả lời của bạn* -->
-Tôi chọn persona **trợ lý hỗ trợ học lập trình**.
-
-System prompt:
-
+> Tôi chọn persona **trợ lý hỗ trợ học lập trình**.
+> System prompt:
 > “Bạn là một trợ lý lập trình thân thiện. Hãy giúp người dùng học và hiểu code bằng cách giải thích đơn giản, rõ ràng và đưa ra ví dụ ngắn khi cần. Trả lời bằng tiếng Việt và tránh sử dụng thuật ngữ quá phức tạp nếu không cần thiết.” 
 > Tôi chọn từ **“đơn giản, rõ ràng”** để trợ lý tập trung vào việc giúp người mới hiểu code thay vì đưa ra những giải thích quá phức tạp. Tôi cũng chỉ định **“trả lời bằng tiếng Việt”** để câu trả lời dễ hiểu và phù hợp với người dùng.
 
@@ -113,7 +111,7 @@ thiện cụ thể và mô tả ngắn cách triển khai:**
 
 ## Danh Sách Kiểm Tra Nộp Bài
 
-- [ ] `python grade.py` — xem điểm tự động, mục tiêu ≥ 75/100
-- [ ] Cả 4 checkpoint pytest đều pass
-- [ ] Tất cả 9 câu trong file này đã được trả lời
-- [ ] Đã copy bài làm vào folder `solution/`, push lên fork và dán link trên trang bài Lab ở VLearn trước 23:59 ngày 11/09/2026
+- [x] `python grade.py` — xem điểm tự động, mục tiêu ≥ 75/100
+- [x] Cả 4 checkpoint pytest đều pass
+- [x] Tất cả 9 câu trong file này đã được trả lời
+- [x] Đã copy bài làm vào folder `solution/`, push lên fork và dán link trên trang bài Lab ở VLearn trước 23:59 ngày 11/09/2026
